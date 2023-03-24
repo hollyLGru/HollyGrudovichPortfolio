@@ -12,7 +12,7 @@ const Main = () => {
                 <div className="w-full flex justify-center items-center pt-7 mb-6">
                     <Image src='/../public/pic.jpg' alt='profile pic' className='rounded-full' width='400' height='1200'/>
                 </div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>Lets Build Something Together</p>
+                <p className='uppercase text-sm tracking-widest text-gray-600'>Lets Create Together</p>
                 <h1 className='py-4 text-gray-700'>
                     Welcome! I'm <span className='text-[#a95c83]'>Holly Grudovich</span>
                 </h1>
