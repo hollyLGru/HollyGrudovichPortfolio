@@ -6,11 +6,11 @@ import { AiOutlineMail} from 'react-icons/ai';
 
 const Main = () => {
   return (
-    <div className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+    <div className='w-full h-screen text-center pt-12'>
+        <div className='max-w-[1240px] w-full pt-12  mx-auto p-2 flex justify-center items-center'>
             <div >
-                <div className="w-full flex justify-center items-center pt-7 mb-6">
-                    <Image src='/../public/pic.jpg' alt='profile pic' className='rounded-full' width='400' height='1200'/>
+                <div className="hidden md:flex w-full justify-center items-center pt-5 mb-6">
+                    <Image src='/../public/pic.jpg' alt='profile pic' className='rounded-full' width='300' height='1200'/>
                 </div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>Lets Create Together</p>
                 <h1 className='py-4 text-gray-700'>
@@ -21,7 +21,7 @@ const Main = () => {
                 </h2>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                     I am an international teacher turned full stack web developer! I hope to use my cross cultural 
-                    perspective combined with technical knowledge to build interesting and user centric applications.
+                    perspective combined with technical knowledge to build unique, user centric applications.
                 </p>
                 <div className='flex items-center justify-between max-w-[300px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6  cursor-pointer hover:scale-110 ease-in duration-300'>
