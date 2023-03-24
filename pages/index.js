@@ -1,16 +1,11 @@
-import Head from 'next/head'
-import { Inter } from 'next/font/google'
 import Navbar from '../components/Navbar'
-
-const inter = Inter({ subsets: ['latin'] })
+import Main from '../components/Main'
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        Holly Grudovich's Dev Portfolio
-      </Head>
       <Navbar/>
+      <Main/>
     </div>
   )
 }
