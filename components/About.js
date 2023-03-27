@@ -25,9 +25,9 @@ const About = () => {
                     functional team with full time employment. I believe my appreciation for education as the most influential catalyst for 
                      economic and social development would allow me to become a hard-working an invaluable employee to your company!
                 </p>
-                <h2 className='py-4 text-2xl text-gray-100 italic text-center mt-10 tracking-widest'>
+                {/* <h2 className='py-4 text-2xl text-gray-100 italic text-center mt-10 tracking-widest'>
                     “Not all those who wander are lost.” – JRR Tolkien
-                </h2>
+                </h2> */}
             </div>
             <div>
                 <Image src='/../public/aboutmepic2.jpg' alt='/' width='900' height='1200'/>
