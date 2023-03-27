@@ -3,13 +3,12 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <div className='w-full md:h-screen p-2 flex items-center py-16 bg-[#4A7564] text-white'>
+    <div className='w-full md:min-h-max	p-2 flex items-center py-16 bg-[#4A7564] text-white mt-10'>
         <div className='max-w-[1240px-] m-auto md:grid grid-cols-3 gap-8 ml-10 mr-10'>
             <div className='col-span-2'>
                 <p className='py-4 uppercase text-3xl tracking-widest'>
                     About
                 </p>
-                <h2 className='py-4 text-4xl text-gray-100 mb-5'>Who I am</h2>
                 <p className='py-2 text-xl leading-10 mb-5'>
                     After graduating from California State University of Chico in 2017, I craved adventure and an
                      opportunity to change the world. Equipped with nothing back a backpack and a thirst for the unknown,
